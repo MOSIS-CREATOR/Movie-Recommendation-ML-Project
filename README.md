@@ -51,6 +51,8 @@ Download the dataset from:
 - TMDB API: https://www.themoviedb.org/documentation/api
 - GroupLens: https://grouplens.org/datasets/movielens/
 
+Also included in Data/movies.csv
+
 ## Dataset Attribution
 - Movie metadata is sourced from the TMDB Open API (https://www.themoviedb.org/documentation/api). This product uses the TMDB API but is not endorsed or certified by TMDB.
 - Movie links and ratings are from GroupLens (https://grouplens.org/datasets/movielens/).
