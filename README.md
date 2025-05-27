@@ -106,7 +106,7 @@ The recommendations are generated using a content-based filtering approach. Movi
    ```
 4. Open the notebook:
    ```bash
-   jupyter notebook Customer_Churn_Prediction.ipynb
+   jupyter notebook Movie_recommendation_system.ipynb
    ```
 
 ## License
