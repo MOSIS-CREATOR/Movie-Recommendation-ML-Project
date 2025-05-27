@@ -1,4 +1,4 @@
-# Music-Recommendation-ML-Project
+# Movie-Recommendation-ML-Project
 This Jupyter Notebook implements a content-based movie recommendation system using TF-IDF vectorization and cosine similarity, leveraging movie metadata (genres, keywords, overview) to suggest similar films. Built with Python, pandas, scikit-learn, and NLTK.
 
 
@@ -94,11 +94,11 @@ The recommendations are generated using a content-based filtering approach. Movi
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/MOSIS-CREATOR/Customer-Churn-Prediction-ML-project
+   git clone https://github.com/MOSIS-CREATOR/Movie-Recommendation-ML-Project/tree/main
    ```
 2. Navigate to the project directory:
    ```bash
-   cd Customer-Churn-Prediction-ML-project
+   cd Movie-Recommendation-ML-Project
    ```
 3. Install dependencies:
    ```bash

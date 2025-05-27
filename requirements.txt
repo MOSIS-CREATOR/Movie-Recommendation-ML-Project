@@ -1,0 +1,7 @@
+numpy==2.0.2
+pandas==2.2.2
+matplotlib==3.10.0
+scikit-learn==1.6.1
+wordcount==1.9.4
+Regular Expression==2.2.1
+Natural Languare ToolKit==3.9.1
