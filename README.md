@@ -8,22 +8,22 @@ The notebook contains:
 
 1. Import libraries for data processing (numpy, pandas), text processing (nltk, sklearn.feature_extraction.text), visualization (matplotlib, wordcloud), and similarity computation (sklearn.metrics.pairwise).
 
-1. Loading and Understanding Data
+2. Loading and Understanding Data
 Load the movie dataset (movies.csv) into a pandas DataFrame from a specified path.
 
-Inspect the data using df.head() to display the first five rows and df.shape to check the number of rows and columns, ensuring an understanding of the dataset's structure (e.g., columns like title, genres, keywords, overview).
+   Inspect the data using df.head() to display the first five rows and df.shape to check the number of rows and columns, ensuring an understanding of the dataset's structure (e.g., columns like title, genres, keywords, overview).
 
 3. Data Preprocessing
 Combine relevant text features (e.g., genres, keywords, overview) into a single column (combined) for each movie.
 
-a. Define a preprocessing function (preprocess_text) using NLTK to:
-Convert text to lowercase.
+   a. Define a preprocessing function (preprocess_text) using NLTK to:
+   Convert text to lowercase.
 
-b. Remove special characters and numbers using regex.
+   b. Remove special characters and numbers using regex.
 
-c. Tokenize text and remove stopwords to create clean text data.
+   c. Tokenize text and remove stopwords to create clean text data.
 
-d. Apply the preprocessing function to the combined column, creating a new cleaned_text column.
+   d. Apply the preprocessing function to the combined column, creating a new cleaned_text column.
 
 4. Text Vectorization
 Use TfidfVectorizer from scikit-learn to convert the cleaned_text into a TF-IDF matrix, limiting to the top 5000 features to capture significant words while managing dimensionality.
@@ -36,9 +36,9 @@ Define a function (recommend_movies) that:
 Takes a movie title and returns the top N similar movies (default N=5).
 Finds the index of the input movie in the DataFrame.
 
-Retrieves similarity scores from the cosine similarity matrix, sorts them in descending order, and selects the top N indices.
+   Retrieves similarity scores from the cosine similarity matrix, sorts them in descending order, and selects the top N indices.
 
-Returns the titles of the top N similar movies.
+   Returns the titles of the top N similar movies.
 
 7. Testing the Recommendation System
 Test the recommendation function with an example movie (e.g., "Avengers: Age of Ultron") to verify it returns relevant movie recommendations based on the similarity scores.
